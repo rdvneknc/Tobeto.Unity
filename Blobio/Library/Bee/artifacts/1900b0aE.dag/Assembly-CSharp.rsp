@@ -365,7 +365,9 @@
 "Assets/Art/Kawaii Slimes/Scripts/AI/Face.cs"
 "Assets/Art/Kawaii Slimes/Scripts/GameManager.cs"
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/CollectibleController.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/SimpleCollectiblesPack/SimpleCollectibleScript.cs"
 -langversion:9.0
 
 /deterministic

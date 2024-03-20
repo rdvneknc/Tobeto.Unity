@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Art\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
+    <Compile Include="Assets\SimpleCollectiblesPack\SimpleCollectibleScript.cs" />
     <Compile Include="Assets\Art\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
     <Compile Include="Assets\Art\Kawaii Slimes\Scripts\AI\Face.cs" />
     <Compile Include="Assets\Art\Kawaii Slimes\Scripts\GameManager.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Assets\Art\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\CollectibleController.cs" />
     <None Include="Assets\Art\Kawaii Slimes\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Art\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\readme.txt" />
     <None Include="Assets\Art\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\Unitychan_chara_eye.shader" />
@@ -759,11 +761,11 @@
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>C:\Users\MaunaHome\Desktop\Tobeto.Unity\Blobio\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:\Users\MaunaHome\Desktop\Tobeto.Unity\Blobio\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>C:\Users\MaunaHome\Desktop\Tobeto.Unity\Blobio\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>C:\Users\MaunaHome\Desktop\Tobeto.Unity\Blobio\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
